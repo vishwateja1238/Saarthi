@@ -1,4 +1,7 @@
 import { PDFDocument, StandardFonts, rgb, type PDFFont, type PDFPage } from "pdf-lib";
+import fontkit from "@pdf-lib/fontkit";
+import { promises as fs } from "fs";
+import path from "path";
 import type { ApplicantProfile, EmiResult, RankedPartner, RankedScheme, Scheme } from "../types";
 import { DEMO_DATA_LABEL, REFERRAL_DISCLAIMER } from "../types";
 
@@ -21,12 +24,68 @@ const GREEN = rgb(0.09, 0.55, 0.33);
 const GREY = rgb(0.35, 0.38, 0.45);
 const DARK = rgb(0.1, 0.12, 0.18);
 
+async function loadFontBuffer(fontName: "NotoSans-Regular.ttf" | "NotoSans-Bold.ttf"): Promise<Uint8Array | null> {
+  const primaryPath = fontName === "NotoSans-Regular.ttf"
+    ? path.join(process.cwd(), "src/assets/fonts/NotoSans-Regular.ttf")
+    : path.join(process.cwd(), "src/assets/fonts/NotoSans-Bold.ttf");
+  const fallbackPath = fontName === "NotoSans-Regular.ttf"
+    ? path.join(process.cwd(), "node_modules/notosans-fontface/fonts/NotoSans-Regular.ttf")
+    : path.join(process.cwd(), "node_modules/notosans-fontface/fonts/NotoSans-Bold.ttf");
+
+  for (const candidate of [primaryPath, fallbackPath]) {
+    try {
+      const data = await fs.readFile(candidate);
+      return data;
+    } catch {
+      continue;
+    }
+  }
+  return null;
+}
+
+function cleanText(text: string, font: PDFFont): string {
+  if (!text) return "";
+  let out = "";
+  for (const ch of text.normalize("NFKC")) {
+    try {
+      font.widthOfTextAtSize(ch, 10);
+      out += ch;
+    } catch {
+      if (ch === "₹") {
+        out += "Rs. ";
+      } else {
+        out += " ";
+      }
+    }
+  }
+  return out;
+}
+
 export async function generateReferralPdf(payload: ReferralPayload): Promise<Uint8Array> {
   const doc = await PDFDocument.create();
+  doc.registerFontkit(fontkit);
   doc.setTitle("Saarthi - Secure Referral Summary");
   doc.setProducer("Saarthi Prototype");
-  const font = await doc.embedFont(StandardFonts.Helvetica);
-  const bold = await doc.embedFont(StandardFonts.HelveticaBold);
+
+  let font: PDFFont;
+  let bold: PDFFont;
+
+  try {
+    const [regularBytes, boldBytes] = await Promise.all([
+      loadFontBuffer("NotoSans-Regular.ttf"),
+      loadFontBuffer("NotoSans-Bold.ttf"),
+    ]);
+    if (regularBytes && boldBytes) {
+      font = await doc.embedFont(regularBytes);
+      bold = await doc.embedFont(boldBytes);
+    } else {
+      font = await doc.embedFont(StandardFonts.Helvetica);
+      bold = await doc.embedFont(StandardFonts.HelveticaBold);
+    }
+  } catch {
+    font = await doc.embedFont(StandardFonts.Helvetica);
+    bold = await doc.embedFont(StandardFonts.HelveticaBold);
+  }
 
   let page = doc.addPage([595.28, 841.89]); // A4
   const margin = 48;
@@ -46,7 +105,7 @@ export async function generateReferralPdf(payload: ReferralPayload): Promise<Uin
     const lines = wrap(s, f, size, width - ((opts.x ?? margin) - margin));
     for (const line of lines) {
       ensureSpace(size + 6);
-      page.drawText(line, { x: opts.x ?? margin, y, size, font: f, color: opts.color ?? DARK });
+      page.drawText(cleanText(line, f), { x: opts.x ?? margin, y, size, font: f, color: opts.color ?? DARK });
       y -= size + 5;
     }
   };
@@ -54,7 +113,7 @@ export async function generateReferralPdf(payload: ReferralPayload): Promise<Uin
   const heading = (s: string) => {
     ensureSpace(30);
     y -= 8;
-    page.drawText(s.toUpperCase(), { x: margin, y, size: 9.5, font: bold, color: BLUE });
+    page.drawText(cleanText(s.toUpperCase(), bold), { x: margin, y, size: 9.5, font: bold, color: BLUE });
     y -= 6;
     page.drawLine({ start: { x: margin, y }, end: { x: margin + width, y }, thickness: 0.8, color: BLUE });
     y -= 14;
@@ -62,21 +121,21 @@ export async function generateReferralPdf(payload: ReferralPayload): Promise<Uin
 
   const kv = (k: string, v: string) => {
     ensureSpace(16);
-    page.drawText(k, { x: margin, y, size: 10, font: bold, color: GREY });
+    page.drawText(cleanText(k, bold), { x: margin, y, size: 10, font: bold, color: GREY });
     const lines = wrap(v, font, 10, width - 180);
     lines.forEach((line, i) => {
       if (i > 0) { y -= 13; ensureSpace(13); }
-      page.drawText(line, { x: margin + 180, y, size: 10, font, color: DARK });
+      page.drawText(cleanText(line, font), { x: margin + 180, y, size: 10, font, color: DARK });
     });
     y -= 15;
   };
 
   // Header band
   page.drawRectangle({ x: 0, y: page.getHeight() - 90, width: page.getWidth(), height: 90, color: BLUE });
-  page.drawText("Saarthi", { x: margin, y: page.getHeight() - 42, size: 22, font: bold, color: rgb(1, 1, 1) });
-  page.drawText("Secure Referral Summary", { x: margin, y: page.getHeight() - 64, size: 13, font, color: rgb(0.9, 0.94, 1) });
-  page.drawText(`Ref: ${payload.referenceId}`, { x: margin + width - 190, y: page.getHeight() - 42, size: 9, font, color: rgb(0.9, 0.94, 1) });
-  page.drawText(`Generated: ${payload.generatedAt}`, { x: margin + width - 190, y: page.getHeight() - 56, size: 9, font, color: rgb(0.9, 0.94, 1) });
+  page.drawText(cleanText("Saarthi", bold), { x: margin, y: page.getHeight() - 42, size: 22, font: bold, color: rgb(1, 1, 1) });
+  page.drawText(cleanText("Secure Referral Summary", font), { x: margin, y: page.getHeight() - 64, size: 13, font, color: rgb(0.9, 0.94, 1) });
+  page.drawText(cleanText(`Ref: ${payload.referenceId}`, font), { x: margin + width - 190, y: page.getHeight() - 42, size: 9, font, color: rgb(0.9, 0.94, 1) });
+  page.drawText(cleanText(`Generated: ${payload.generatedAt}`, font), { x: margin + width - 190, y: page.getHeight() - 56, size: 9, font, color: rgb(0.9, 0.94, 1) });
   y = page.getHeight() - 90 - 26;
 
   text(`${DEMO_DATA_LABEL} - AI-assisted, rule-based referral. Figures are indicative only.`, { size: 9, color: GREY });
@@ -120,8 +179,8 @@ export async function generateReferralPdf(payload: ReferralPayload): Promise<Uin
   } else {
     payload.partners.forEach((cp) => {
       ensureSpace(44);
-      page.drawText(`${cp.rank}. ${cp.partnerName}`, { x: margin, y, size: 10.5, font: bold, color: DARK });
-      page.drawText(cp.healthStatus, { x: margin + width - 60, y, size: 9, font: bold, color: GREEN });
+      page.drawText(cleanText(`${cp.rank}. ${cp.partnerName}`, bold), { x: margin, y, size: 10.5, font: bold, color: DARK });
+      page.drawText(cleanText(cp.healthStatus, bold), { x: margin + width - 60, y, size: 9, font: bold, color: GREEN });
       y -= 13;
       text(`${cp.partnerType} | ${cp.addressLine}, ${cp.district}, ${cp.state} - ${cp.pincode}`, { size: 9.5, color: GREY, x: margin + 14 });
       text(`Distance: ${cp.distanceKm} km | Demo NPA ratio: ${cp.npaRatioPercent}% | Contact: ${cp.contactPhone}`, { size: 9.5, color: GREY, x: margin + 14 });
@@ -137,15 +196,16 @@ export async function generateReferralPdf(payload: ReferralPayload): Promise<Uin
   // Footer on each page
   const pages = doc.getPages();
   pages.forEach((pg: PDFPage, i: number) => {
-    pg.drawText(`Saarthi Prototype - SIH 2026 | Page ${i + 1} of ${pages.length}`, { x: margin, y: 24, size: 8, font, color: GREY });
+    pg.drawText(cleanText(`Saarthi Prototype - SIH 2026 | Page ${i + 1} of ${pages.length}`, font), { x: margin, y: 24, size: 8, font, color: GREY });
   });
 
   return doc.save();
 }
 
 function wrap(s: string, font: PDFFont, size: number, maxWidth: number): string[] {
+  const sanitized = cleanText(s, font);
   const out: string[] = [];
-  for (const para of s.split("\n")) {
+  for (const para of sanitized.split("\n")) {
     const words = para.split(/\s+/).filter(Boolean);
     let line = "";
     for (const w of words) {

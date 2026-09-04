@@ -58,6 +58,7 @@ export async function POST(req: Request) {
       },
     });
   } catch (err) {
+    console.error("[referral-pdf] Generation failed:", err);
     const message = err instanceof DatasetError ? err.message : "PDF generation failed. Your session is preserved; please retry.";
     return Response.json({ ok: false, error: message }, { status: 500 });
   }

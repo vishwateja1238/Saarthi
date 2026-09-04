@@ -7,12 +7,14 @@ import { buildRepaymentPlan } from "@/lib/engines/finance-engine";
 import { EMPTY_SESSION, REFERRAL_DISCLAIMER } from "@/lib/types";
 import { baseProfile, partner, scheme } from "./fixtures";
 
-/** Extract drawn text from a pdf-lib document: inflate content streams and hex-decode Tj strings. */
+/** Extract drawn text from a pdf-lib document: inflate content streams and hex-decode Tj strings (with CMap support). */
 async function extractPdfText(bytes: Uint8Array): Promise<string> {
   const { PDFDocument, PDFRawStream, PDFName } = await import("pdf-lib");
   const zlib = await import("zlib");
   const doc = await PDFDocument.load(bytes);
-  let out = "";
+  const cMap = new Map<string, string>();
+  const textStreams: string[] = [];
+
   for (const [, obj] of doc.context.enumerateIndirectObjects()) {
     if (!(obj instanceof PDFRawStream)) continue;
     const filter = obj.dict.get(PDFName.of("Filter"));
@@ -25,8 +27,36 @@ async function extractPdfText(bytes: Uint8Array): Promise<string> {
       }
     }
     const text = content.toString("latin1");
-    for (const m of text.matchAll(/<([0-9A-Fa-f]+)>\s*Tj/g)) {
-      out += Buffer.from(m[1], "hex").toString("latin1") + "\n";
+    if (text.includes("beginbfchar") || text.includes("beginbfrange")) {
+      for (const m of text.matchAll(/<([0-9A-Fa-f]+)>\s*<([0-9A-Fa-f]+)>/g)) {
+        const glyph = m[1].toUpperCase().padStart(4, "0");
+        let decoded = "";
+        for (let i = 0; i < m[2].length; i += 4) {
+          const code = parseInt(m[2].slice(i, i + 4), 16);
+          if (!isNaN(code) && code <= 0x10ffff) {
+            decoded += String.fromCodePoint(code);
+          }
+        }
+        cMap.set(glyph, decoded);
+      }
+    } else {
+      textStreams.push(text);
+    }
+  }
+
+  let out = "";
+  for (const stream of textStreams) {
+    for (const m of stream.matchAll(/<([0-9A-Fa-f]+)>\s*Tj/g)) {
+      const hex = m[1];
+      if (cMap.size > 0 && hex.length % 4 === 0) {
+        for (let i = 0; i < hex.length; i += 4) {
+          const glyph = hex.slice(i, i + 4).toUpperCase();
+          out += cMap.get(glyph) ?? "";
+        }
+        out += "\n";
+      } else {
+        out += Buffer.from(hex, "hex").toString("latin1") + "\n";
+      }
     }
   }
   return out;
@@ -75,7 +105,13 @@ describe("secure referral PDF", () => {
     const bytes = await generateReferralPdf({
       profile: baseProfile,
       scheme: scheme({ schemeId: "SS-004", schemeName: "SC/ST Venture Term Loan (Demo)" }),
-      recommendation: { schemeId: "SS-004", schemeName: "SC/ST Venture Term Loan (Demo)", rank: 1, reason: "Best fit.", matchedConditions: ["Category matches"] },
+      recommendation: {
+        schemeId: "SS-004",
+        schemeName: "SC/ST Venture Term Loan (Demo)",
+        rank: 1,
+        reason: "Best fit.",
+        matchedConditions: ["Category matches", "Income within configured range (₹0–₹8,00,000)"],
+      },
       recommendationSource: "deterministic",
       finance,
       partners: [
@@ -113,5 +149,31 @@ describe("secure referral PDF", () => {
     const raw = await extractPdfText(bytes);
     expect(raw).toContain("Not calculated in this session");
     expect(raw).toContain("No suitable channel partner");
+  });
+
+  it("generates a valid PDF from real scheme engine outputs containing rupee glyphs", async () => {
+    const { evaluateAll, getCandidates, deterministicRanking } = await import("@/lib/engines/scheme-engine");
+    const { parseCsv } = await import("@/lib/data/csv");
+    const { mapScheme } = await import("@/lib/data/datasets");
+    const csvText = await fs.readFile(path.join(process.cwd(), "data/schemes.csv"), "utf8");
+    const schemes = parseCsv(csvText).map(mapScheme);
+    const evals = evaluateAll(schemes, baseProfile);
+    const candidates = getCandidates(evals);
+    const ranked = deterministicRanking(candidates);
+    const top = ranked[0];
+    const targetScheme = schemes.find((s) => s.schemeId === top.schemeId)!;
+
+    const bytes = await generateReferralPdf({
+      profile: baseProfile,
+      scheme: targetScheme,
+      recommendation: top,
+      recommendationSource: "deterministic",
+      finance: null,
+      partners: [],
+      generatedAt: "2026-09-04 12:00 UTC",
+      referenceId: "SS-FULL-FLOW",
+    });
+    expect(bytes.byteLength).toBeGreaterThan(1500);
+    expect(Buffer.from(bytes.slice(0, 5)).toString()).toBe("%PDF-");
   });
 });
