@@ -1,0 +1,787 @@
+state,state_code,state_type,district,district_code,latitude,longitude
+Andhra Pradesh,AP,State,Ananthapuramu,AP-ANA,14.6819,77.6006
+Andhra Pradesh,AP,State,Chittoor,AP-CHI,13.2172,79.1003
+Andhra Pradesh,AP,State,East Godavari,AP-EAS,17.0005,81.804
+Andhra Pradesh,AP,State,Guntur,AP-GUN,16.3067,80.4365
+Andhra Pradesh,AP,State,Krishna,AP-KRI,16.1875,81.1389
+Andhra Pradesh,AP,State,Kurnool,AP-KUR,15.8281,78.0373
+Andhra Pradesh,AP,State,Prakasam,AP-PRA,15.5057,80.0499
+Andhra Pradesh,AP,State,Srikakulam,AP-SRI,18.2949,83.8938
+Andhra Pradesh,AP,State,Sri Potti Sriramulu Nellore,AP-SRI,14.4426,79.9865
+Andhra Pradesh,AP,State,Visakhapatnam,AP-VIS,17.6868,83.2185
+Andhra Pradesh,AP,State,Vizianagaram,AP-VIZ,18.1067,83.3956
+Andhra Pradesh,AP,State,West Godavari,AP-WES,16.7107,81.0952
+Andhra Pradesh,AP,State,YSR Kadapa,AP-YSR,14.4673,78.8242
+Andhra Pradesh,AP,State,NTR,AP-NTR,16.5062,80.648
+Andhra Pradesh,AP,State,Bapatla,AP-BAP,15.9042,80.4674
+Andhra Pradesh,AP,State,Palnadu,AP-PAL,16.18,80.14
+Andhra Pradesh,AP,State,Tirupati,AP-TIR,13.6288,79.4192
+Andhra Pradesh,AP,State,Annamayya,AP-ANN,14.05,78.75
+Andhra Pradesh,AP,State,Sri Sathya Sai,AP-SRI,14.167,77.81
+Andhra Pradesh,AP,State,Nandyal,AP-NAN,15.48,78.48
+Andhra Pradesh,AP,State,Alluri Sitharama Raju,AP-ALL,17.9,82.2
+Andhra Pradesh,AP,State,Anakapalli,AP-ANA,17.69,83.0
+Andhra Pradesh,AP,State,Kakinada,AP-KAK,16.9891,82.2475
+Andhra Pradesh,AP,State,Konaseema,AP-KON,16.57,82.0
+Andhra Pradesh,AP,State,Eluru,AP-ELU,16.71,81.1
+Andhra Pradesh,AP,State,Parvathipuram Manyam,AP-PAR,18.78,83.43
+Arunachal Pradesh,AR,State,Tawang,AR-TAW,27.5861,91.8594
+Arunachal Pradesh,AR,State,West Kameng,AR-WES,27.2645,92.4159
+Arunachal Pradesh,AR,State,East Kameng,AR-EAS,27.3,93.0
+Arunachal Pradesh,AR,State,Papum Pare,AR-PAP,27.15,93.62
+Arunachal Pradesh,AR,State,Kurung Kumey,AR-KUR,27.9,93.5
+Arunachal Pradesh,AR,State,Kra Daadi,AR-KRA,27.8,93.7
+Arunachal Pradesh,AR,State,Lower Subansiri,AR-LOW,27.5,93.8
+Arunachal Pradesh,AR,State,Upper Subansiri,AR-UPP,28.0,94.1
+Arunachal Pradesh,AR,State,West Siang,AR-WES,28.17,94.55
+Arunachal Pradesh,AR,State,East Siang,AR-EAS,28.07,95.33
+Arunachal Pradesh,AR,State,Siang,AR-SIA,28.25,94.9
+Arunachal Pradesh,AR,State,Upper Siang,AR-UPP,28.6,94.95
+Arunachal Pradesh,AR,State,Lower Siang,AR-LOW,27.8,94.7
+Arunachal Pradesh,AR,State,Lower Dibang Valley,AR-LOW,28.15,95.83
+Arunachal Pradesh,AR,State,Dibang Valley,AR-DIB,28.8,95.9
+Arunachal Pradesh,AR,State,Anjaw,AR-ANJ,28.0,96.5
+Arunachal Pradesh,AR,State,Lohit,AR-LOH,27.92,96.17
+Arunachal Pradesh,AR,State,Namsai,AR-NAM,27.67,95.87
+Arunachal Pradesh,AR,State,Changlang,AR-CHA,27.15,95.73
+Arunachal Pradesh,AR,State,Tirap,AR-TIR,27.0,95.5
+Arunachal Pradesh,AR,State,Longding,AR-LON,26.85,95.3
+Arunachal Pradesh,AR,State,Kamle,AR-KAM,27.7,93.9
+Arunachal Pradesh,AR,State,Pakke Kessang,AR-PAK,27.1,93.2
+Arunachal Pradesh,AR,State,Lepa Rada,AR-LEP,27.9,94.6
+Arunachal Pradesh,AR,State,Shi Yomi,AR-SHI,28.6,94.3
+Arunachal Pradesh,AR,State,Itanagar Capital Complex,AR-ITA,27.0844,93.6053
+Assam,AS,State,Baksa,AS-BAK,26.68,91.33
+Assam,AS,State,Barpeta,AS-BAR,26.32,91.0
+Assam,AS,State,Biswanath,AS-BIS,26.73,93.15
+Assam,AS,State,Bongaigaon,AS-BON,26.48,90.56
+Assam,AS,State,Cachar,AS-CAC,24.83,92.8
+Assam,AS,State,Charaideo,AS-CHA,26.93,94.95
+Assam,AS,State,Chirang,AS-CHI,26.55,90.5
+Assam,AS,State,Darrang,AS-DAR,26.45,92.03
+Assam,AS,State,Dhemaji,AS-DHE,27.48,94.58
+Assam,AS,State,Dhubri,AS-DHU,26.02,89.98
+Assam,AS,State,Dibrugarh,AS-DIB,27.4728,94.912
+Assam,AS,State,Dima Hasao,AS-DIM,25.17,93.03
+Assam,AS,State,Goalpara,AS-GOA,26.17,90.62
+Assam,AS,State,Golaghat,AS-GOL,26.52,93.97
+Assam,AS,State,Hailakandi,AS-HAI,24.68,92.57
+Assam,AS,State,Hojai,AS-HOJ,26.0,92.87
+Assam,AS,State,Jorhat,AS-JOR,26.75,94.22
+Assam,AS,State,Kamrup,AS-KAM,26.33,91.6
+Assam,AS,State,Kamrup Metropolitan,AS-KAM,26.1445,91.7362
+Assam,AS,State,Karbi Anglong,AS-KAR,26.0,93.3
+Assam,AS,State,Karimganj,AS-KAR,24.87,92.35
+Assam,AS,State,Kokrajhar,AS-KOK,26.4,90.27
+Assam,AS,State,Lakhimpur,AS-LAK,27.23,94.1
+Assam,AS,State,Majuli,AS-MAJ,26.95,94.2
+Assam,AS,State,Morigaon,AS-MOR,26.25,92.33
+Assam,AS,State,Nagaon,AS-NAG,26.35,92.68
+Assam,AS,State,Nalbari,AS-NAL,26.45,91.43
+Assam,AS,State,Sivasagar,AS-SIV,26.98,94.63
+Assam,AS,State,Sonitpur,AS-SON,26.63,92.8
+Assam,AS,State,South Salmara-Mankachar,AS-SOU,25.7,89.9
+Assam,AS,State,Tinsukia,AS-TIN,27.5,95.37
+Assam,AS,State,Udalguri,AS-UDA,26.75,92.1
+Assam,AS,State,West Karbi Anglong,AS-WES,25.8,92.5
+Assam,AS,State,Bajali,AS-BAJ,26.48,91.17
+Assam,AS,State,Tamulpur,AS-TAM,26.63,91.57
+Bihar,BR,State,Araria,BR-ARA,26.15,87.52
+Bihar,BR,State,Arwal,BR-ARW,25.25,84.67
+Bihar,BR,State,Aurangabad,BR-AUR,24.75,84.37
+Bihar,BR,State,Banka,BR-BAN,24.88,86.92
+Bihar,BR,State,Begusarai,BR-BEG,25.42,86.13
+Bihar,BR,State,Bhagalpur,BR-BHA,25.25,87.0
+Bihar,BR,State,Bhojpur,BR-BHO,25.47,84.52
+Bihar,BR,State,Buxar,BR-BUX,25.57,83.98
+Bihar,BR,State,Darbhanga,BR-DAR,26.17,85.9
+Bihar,BR,State,East Champaran,BR-EAS,26.65,84.92
+Bihar,BR,State,Gaya,BR-GAY,24.78,85.0
+Bihar,BR,State,Gopalganj,BR-GOP,26.47,84.43
+Bihar,BR,State,Jamui,BR-JAM,24.92,86.22
+Bihar,BR,State,Jehanabad,BR-JEH,25.22,84.98
+Bihar,BR,State,Kaimur,BR-KAI,25.03,83.58
+Bihar,BR,State,Katihar,BR-KAT,25.53,87.58
+Bihar,BR,State,Khagaria,BR-KHA,25.5,86.48
+Bihar,BR,State,Kishanganj,BR-KIS,26.1,87.95
+Bihar,BR,State,Lakhisarai,BR-LAK,25.18,86.1
+Bihar,BR,State,Madhepura,BR-MAD,25.92,86.78
+Bihar,BR,State,Madhubani,BR-MAD,26.37,86.08
+Bihar,BR,State,Munger,BR-MUN,25.37,86.47
+Bihar,BR,State,Muzaffarpur,BR-MUZ,26.12,85.4
+Bihar,BR,State,Nalanda,BR-NAL,25.2,85.52
+Bihar,BR,State,Nawada,BR-NAW,24.88,85.53
+Bihar,BR,State,Patna,BR-PAT,25.5941,85.1376
+Bihar,BR,State,Purnia,BR-PUR,25.78,87.47
+Bihar,BR,State,Rohtas,BR-ROH,24.95,84.02
+Bihar,BR,State,Saharsa,BR-SAH,25.88,86.6
+Bihar,BR,State,Samastipur,BR-SAM,25.85,85.78
+Bihar,BR,State,Saran,BR-SAR,25.77,84.73
+Bihar,BR,State,Sheikhpura,BR-SHE,25.13,85.85
+Bihar,BR,State,Sheohar,BR-SHE,26.52,85.3
+Bihar,BR,State,Sitamarhi,BR-SIT,26.6,85.48
+Bihar,BR,State,Siwan,BR-SIW,26.22,84.35
+Bihar,BR,State,Supaul,BR-SUP,26.12,86.6
+Bihar,BR,State,Vaishali,BR-VAI,25.68,85.22
+Bihar,BR,State,West Champaran,BR-WES,27.15,84.45
+Chhattisgarh,CG,State,Balod,CG-BAL,20.73,81.2
+Chhattisgarh,CG,State,Baloda Bazar,CG-BAL,21.66,82.16
+Chhattisgarh,CG,State,Balrampur,CG-BAL,23.6,83.6
+Chhattisgarh,CG,State,Bastar,CG-BAS,19.1,81.95
+Chhattisgarh,CG,State,Bemetara,CG-BEM,21.7,81.55
+Chhattisgarh,CG,State,Bijapur,CG-BIJ,18.8,80.82
+Chhattisgarh,CG,State,Bilaspur,CG-BIL,22.08,82.15
+Chhattisgarh,CG,State,Dantewada,CG-DAN,18.9,81.35
+Chhattisgarh,CG,State,Dhamtari,CG-DHA,20.71,81.55
+Chhattisgarh,CG,State,Durg,CG-DUR,21.18,81.28
+Chhattisgarh,CG,State,Gariaband,CG-GAR,20.95,82.07
+Chhattisgarh,CG,State,Gaurela-Pendra-Marwahi,CG-GAU,22.77,81.92
+Chhattisgarh,CG,State,Janjgir-Champa,CG-JAN,22.02,82.57
+Chhattisgarh,CG,State,Jashpur,CG-JAS,22.9,84.15
+Chhattisgarh,CG,State,Kabirdham,CG-KAB,22.02,81.25
+Chhattisgarh,CG,State,Kanker,CG-KAN,20.27,81.48
+Chhattisgarh,CG,State,Kondagaon,CG-KON,19.6,81.67
+Chhattisgarh,CG,State,Korba,CG-KOR,22.35,82.68
+Chhattisgarh,CG,State,Koriya,CG-KOR,23.25,82.55
+Chhattisgarh,CG,State,Mahasamund,CG-MAH,21.1,82.1
+Chhattisgarh,CG,State,Mungeli,CG-MUN,22.07,81.68
+Chhattisgarh,CG,State,Narayanpur,CG-NAR,19.72,81.25
+Chhattisgarh,CG,State,Raigarh,CG-RAI,21.9,83.4
+Chhattisgarh,CG,State,Raipur,CG-RAI,21.2514,81.6296
+Chhattisgarh,CG,State,Rajnandgaon,CG-RAJ,21.1,81.03
+Chhattisgarh,CG,State,Sukma,CG-SUK,18.4,81.67
+Chhattisgarh,CG,State,Surajpur,CG-SUR,23.22,82.87
+Chhattisgarh,CG,State,Surguja,CG-SUR,23.12,83.2
+Chhattisgarh,CG,State,Manendragarh-Chirmiri-Bharatpur,CG-MAN,23.17,82.35
+Chhattisgarh,CG,State,Mohla-Manpur-Ambagarh Chowki,CG-MOH,20.8,80.7
+Chhattisgarh,CG,State,Sakti,CG-SAK,22.03,82.97
+Chhattisgarh,CG,State,Sarangarh-Bilaigarh,CG-SAR,21.6,83.08
+Chhattisgarh,CG,State,Khairagarh-Chhuikhadan-Gandai,CG-KHA,21.42,80.97
+Goa,GA,State,North Goa,GA-NOR,15.55,73.85
+Goa,GA,State,South Goa,GA-SOU,15.28,74.0
+Gujarat,GJ,State,Ahmedabad,GJ-AHM,23.0225,72.5714
+Gujarat,GJ,State,Amreli,GJ-AMR,21.6,71.22
+Gujarat,GJ,State,Anand,GJ-ANA,22.56,72.95
+Gujarat,GJ,State,Aravalli,GJ-ARA,23.5,73.15
+Gujarat,GJ,State,Banaskantha,GJ-BAN,24.17,72.43
+Gujarat,GJ,State,Bharuch,GJ-BHA,21.7,72.97
+Gujarat,GJ,State,Bhavnagar,GJ-BHA,21.77,72.15
+Gujarat,GJ,State,Botad,GJ-BOT,22.17,71.67
+Gujarat,GJ,State,Chhota Udaipur,GJ-CHH,22.3,74.02
+Gujarat,GJ,State,Dahod,GJ-DAH,22.83,74.25
+Gujarat,GJ,State,Dang,GJ-DAN,20.75,73.7
+Gujarat,GJ,State,Devbhumi Dwarka,GJ-DEV,22.24,68.97
+Gujarat,GJ,State,Gandhinagar,GJ-GAN,23.2156,72.6369
+Gujarat,GJ,State,Gir Somnath,GJ-GIR,20.9,70.37
+Gujarat,GJ,State,Jamnagar,GJ-JAM,22.47,70.07
+Gujarat,GJ,State,Junagadh,GJ-JUN,21.52,70.47
+Gujarat,GJ,State,Kheda,GJ-KHE,22.75,72.68
+Gujarat,GJ,State,Kutch,GJ-KUT,23.25,69.67
+Gujarat,GJ,State,Mahisagar,GJ-MAH,23.17,73.57
+Gujarat,GJ,State,Mehsana,GJ-MEH,23.6,72.4
+Gujarat,GJ,State,Morbi,GJ-MOR,22.82,70.83
+Gujarat,GJ,State,Narmada,GJ-NAR,21.87,73.5
+Gujarat,GJ,State,Navsari,GJ-NAV,20.95,72.93
+Gujarat,GJ,State,Panchmahal,GJ-PAN,22.77,73.62
+Gujarat,GJ,State,Patan,GJ-PAT,23.85,72.12
+Gujarat,GJ,State,Porbandar,GJ-POR,21.63,69.6
+Gujarat,GJ,State,Rajkot,GJ-RAJ,22.3,70.78
+Gujarat,GJ,State,Sabarkantha,GJ-SAB,23.6,73.0
+Gujarat,GJ,State,Surat,GJ-SUR,21.1702,72.8311
+Gujarat,GJ,State,Surendranagar,GJ-SUR,22.72,71.63
+Gujarat,GJ,State,Tapi,GJ-TAP,21.12,73.4
+Gujarat,GJ,State,Vadodara,GJ-VAD,22.3072,73.1812
+Gujarat,GJ,State,Valsad,GJ-VAL,20.6,72.93
+Haryana,HR,State,Ambala,HR-AMB,30.38,76.78
+Haryana,HR,State,Bhiwani,HR-BHI,28.78,76.13
+Haryana,HR,State,Charkhi Dadri,HR-CHA,28.6,76.27
+Haryana,HR,State,Faridabad,HR-FAR,28.42,77.32
+Haryana,HR,State,Fatehabad,HR-FAT,29.52,75.45
+Haryana,HR,State,Gurugram,HR-GUR,28.4595,77.0266
+Haryana,HR,State,Hisar,HR-HIS,29.17,75.72
+Haryana,HR,State,Jhajjar,HR-JHA,28.6,76.65
+Haryana,HR,State,Jind,HR-JIN,29.32,76.32
+Haryana,HR,State,Kaithal,HR-KAI,29.8,76.4
+Haryana,HR,State,Karnal,HR-KAR,29.68,76.98
+Haryana,HR,State,Kurukshetra,HR-KUR,29.97,76.88
+Haryana,HR,State,Mahendragarh,HR-MAH,28.28,76.15
+Haryana,HR,State,Nuh,HR-NUH,28.12,77.0
+Haryana,HR,State,Palwal,HR-PAL,28.15,77.33
+Haryana,HR,State,Panchkula,HR-PAN,30.74,76.86
+Haryana,HR,State,Panipat,HR-PAN,29.39,76.97
+Haryana,HR,State,Rewari,HR-REW,28.18,76.62
+Haryana,HR,State,Rohtak,HR-ROH,28.9,76.57
+Haryana,HR,State,Sirsa,HR-SIR,29.53,75.03
+Haryana,HR,State,Sonipat,HR-SON,28.98,77.02
+Haryana,HR,State,Yamunanagar,HR-YAM,30.13,77.28
+Himachal Pradesh,HP,State,Bilaspur,HP-BIL,31.33,76.75
+Himachal Pradesh,HP,State,Chamba,HP-CHA,32.55,76.13
+Himachal Pradesh,HP,State,Hamirpur,HP-HAM,31.68,76.52
+Himachal Pradesh,HP,State,Kangra,HP-KAN,32.1,76.27
+Himachal Pradesh,HP,State,Kinnaur,HP-KIN,31.58,78.27
+Himachal Pradesh,HP,State,Kullu,HP-KUL,31.95,77.1
+Himachal Pradesh,HP,State,Lahaul and Spiti,HP-LAH,32.3,77.6
+Himachal Pradesh,HP,State,Mandi,HP-MAN,31.7,76.92
+Himachal Pradesh,HP,State,Shimla,HP-SHI,31.1048,77.1734
+Himachal Pradesh,HP,State,Sirmaur,HP-SIR,30.55,77.3
+Himachal Pradesh,HP,State,Solan,HP-SOL,30.9,77.1
+Himachal Pradesh,HP,State,Una,HP-UNA,31.47,76.27
+Jharkhand,JH,State,Bokaro,JH-BOK,23.67,86.15
+Jharkhand,JH,State,Chatra,JH-CHA,24.22,84.87
+Jharkhand,JH,State,Deoghar,JH-DEO,24.48,86.7
+Jharkhand,JH,State,Dhanbad,JH-DHA,23.8,86.43
+Jharkhand,JH,State,Dumka,JH-DUM,24.27,87.25
+Jharkhand,JH,State,East Singhbhum,JH-EAS,22.8,86.2
+Jharkhand,JH,State,Garhwa,JH-GAR,24.18,83.8
+Jharkhand,JH,State,Giridih,JH-GIR,24.18,86.3
+Jharkhand,JH,State,Godda,JH-GOD,24.83,87.22
+Jharkhand,JH,State,Gumla,JH-GUM,23.05,84.55
+Jharkhand,JH,State,Hazaribagh,JH-HAZ,24.0,85.37
+Jharkhand,JH,State,Jamtara,JH-JAM,23.97,86.8
+Jharkhand,JH,State,Khunti,JH-KHU,23.07,85.28
+Jharkhand,JH,State,Koderma,JH-KOD,24.47,85.6
+Jharkhand,JH,State,Latehar,JH-LAT,23.75,84.5
+Jharkhand,JH,State,Lohardaga,JH-LOH,23.43,84.68
+Jharkhand,JH,State,Pakur,JH-PAK,24.63,87.85
+Jharkhand,JH,State,Palamu,JH-PAL,24.05,84.07
+Jharkhand,JH,State,Ramgarh,JH-RAM,23.63,85.52
+Jharkhand,JH,State,Ranchi,JH-RAN,23.3441,85.3096
+Jharkhand,JH,State,Sahebganj,JH-SAH,25.25,87.65
+Jharkhand,JH,State,Seraikela Kharsawan,JH-SER,22.7,85.93
+Jharkhand,JH,State,Simdega,JH-SIM,22.62,84.5
+Jharkhand,JH,State,West Singhbhum,JH-WES,22.57,85.82
+Karnataka,KA,State,Bagalkot,KA-BAG,16.18,75.7
+Karnataka,KA,State,Ballari,KA-BAL,15.15,76.92
+Karnataka,KA,State,Belagavi,KA-BEL,15.87,74.5
+Karnataka,KA,State,Bengaluru Rural,KA-BEN,13.23,77.58
+Karnataka,KA,State,Bengaluru Urban,KA-BEN,12.9716,77.5946
+Karnataka,KA,State,Bidar,KA-BID,17.92,77.52
+Karnataka,KA,State,Chamarajanagar,KA-CHA,11.92,76.95
+Karnataka,KA,State,Chikkaballapura,KA-CHI,13.43,77.73
+Karnataka,KA,State,Chikkamagaluru,KA-CHI,13.32,75.77
+Karnataka,KA,State,Chitradurga,KA-CHI,14.23,76.4
+Karnataka,KA,State,Dakshina Kannada,KA-DAK,12.87,74.88
+Karnataka,KA,State,Davanagere,KA-DAV,14.47,75.92
+Karnataka,KA,State,Dharwad,KA-DHA,15.45,75.0
+Karnataka,KA,State,Gadag,KA-GAD,15.42,75.63
+Karnataka,KA,State,Hassan,KA-HAS,13.0,76.1
+Karnataka,KA,State,Haveri,KA-HAV,14.8,75.4
+Karnataka,KA,State,Kalaburagi,KA-KAL,17.33,76.83
+Karnataka,KA,State,Kodagu,KA-KOD,12.42,75.73
+Karnataka,KA,State,Kolar,KA-KOL,13.13,78.13
+Karnataka,KA,State,Koppal,KA-KOP,15.35,76.15
+Karnataka,KA,State,Mandya,KA-MAN,12.52,76.9
+Karnataka,KA,State,Mysuru,KA-MYS,12.3,76.65
+Karnataka,KA,State,Raichur,KA-RAI,16.2,77.37
+Karnataka,KA,State,Ramanagara,KA-RAM,12.72,77.28
+Karnataka,KA,State,Shivamogga,KA-SHI,13.93,75.57
+Karnataka,KA,State,Tumakuru,KA-TUM,13.34,77.1
+Karnataka,KA,State,Udupi,KA-UDU,13.33,74.75
+Karnataka,KA,State,Uttara Kannada,KA-UTT,14.82,74.13
+Karnataka,KA,State,Vijayapura,KA-VIJ,16.83,75.72
+Karnataka,KA,State,Yadgir,KA-YAD,16.77,77.13
+Karnataka,KA,State,Vijayanagara,KA-VIJ,15.28,76.38
+Kerala,KL,State,Alappuzha,KL-ALA,9.49,76.33
+Kerala,KL,State,Ernakulam,KL-ERN,9.98,76.3
+Kerala,KL,State,Idukki,KL-IDU,9.85,76.97
+Kerala,KL,State,Kannur,KL-KAN,11.87,75.37
+Kerala,KL,State,Kasaragod,KL-KAS,12.5,75.0
+Kerala,KL,State,Kollam,KL-KOL,8.88,76.6
+Kerala,KL,State,Kottayam,KL-KOT,9.58,76.52
+Kerala,KL,State,Kozhikode,KL-KOZ,11.25,75.77
+Kerala,KL,State,Malappuram,KL-MAL,11.07,76.07
+Kerala,KL,State,Palakkad,KL-PAL,10.77,76.65
+Kerala,KL,State,Pathanamthitta,KL-PAT,9.27,76.78
+Kerala,KL,State,Thiruvananthapuram,KL-THI,8.5241,76.9366
+Kerala,KL,State,Thrissur,KL-THR,10.52,76.22
+Kerala,KL,State,Wayanad,KL-WAY,11.6,76.08
+Madhya Pradesh,MP,State,Agar Malwa,MP-AGA,23.7,76.02
+Madhya Pradesh,MP,State,Alirajpur,MP-ALI,22.3,74.35
+Madhya Pradesh,MP,State,Anuppur,MP-ANU,23.1,81.68
+Madhya Pradesh,MP,State,Ashoknagar,MP-ASH,24.58,77.73
+Madhya Pradesh,MP,State,Balaghat,MP-BAL,21.8,80.18
+Madhya Pradesh,MP,State,Barwani,MP-BAR,22.03,74.9
+Madhya Pradesh,MP,State,Betul,MP-BET,21.9,77.9
+Madhya Pradesh,MP,State,Bhind,MP-BHI,26.57,78.78
+Madhya Pradesh,MP,State,Bhopal,MP-BHO,23.2599,77.4126
+Madhya Pradesh,MP,State,Burhanpur,MP-BUR,21.3,76.23
+Madhya Pradesh,MP,State,Chhatarpur,MP-CHH,24.9,79.6
+Madhya Pradesh,MP,State,Chhindwara,MP-CHH,22.05,78.93
+Madhya Pradesh,MP,State,Damoh,MP-DAM,23.83,79.43
+Madhya Pradesh,MP,State,Datia,MP-DAT,25.67,78.47
+Madhya Pradesh,MP,State,Dewas,MP-DEW,22.97,76.05
+Madhya Pradesh,MP,State,Dhar,MP-DHA,22.6,75.3
+Madhya Pradesh,MP,State,Dindori,MP-DIN,22.95,81.08
+Madhya Pradesh,MP,State,Guna,MP-GUN,24.65,77.32
+Madhya Pradesh,MP,State,Gwalior,MP-GWA,26.22,78.18
+Madhya Pradesh,MP,State,Harda,MP-HAR,22.33,77.1
+Madhya Pradesh,MP,State,Hoshangabad,MP-HOS,22.75,77.72
+Madhya Pradesh,MP,State,Indore,MP-IND,22.7196,75.8577
+Madhya Pradesh,MP,State,Jabalpur,MP-JAB,23.18,79.95
+Madhya Pradesh,MP,State,Jhabua,MP-JHA,22.77,74.6
+Madhya Pradesh,MP,State,Katni,MP-KAT,23.83,80.4
+Madhya Pradesh,MP,State,Khandwa,MP-KHA,21.82,76.35
+Madhya Pradesh,MP,State,Khargone,MP-KHA,21.82,75.62
+Madhya Pradesh,MP,State,Mandla,MP-MAN,22.6,80.37
+Madhya Pradesh,MP,State,Mandsaur,MP-MAN,24.07,75.07
+Madhya Pradesh,MP,State,Morena,MP-MOR,26.5,78.0
+Madhya Pradesh,MP,State,Narsinghpur,MP-NAR,22.95,79.2
+Madhya Pradesh,MP,State,Neemuch,MP-NEE,24.47,74.87
+Madhya Pradesh,MP,State,Niwari,MP-NIW,25.37,78.8
+Madhya Pradesh,MP,State,Panna,MP-PAN,24.72,80.2
+Madhya Pradesh,MP,State,Raisen,MP-RAI,23.33,77.78
+Madhya Pradesh,MP,State,Rajgarh,MP-RAJ,24.0,76.73
+Madhya Pradesh,MP,State,Ratlam,MP-RAT,23.33,75.03
+Madhya Pradesh,MP,State,Rewa,MP-REW,24.53,81.3
+Madhya Pradesh,MP,State,Sagar,MP-SAG,23.83,78.73
+Madhya Pradesh,MP,State,Satna,MP-SAT,24.58,80.83
+Madhya Pradesh,MP,State,Sehore,MP-SEH,23.2,77.08
+Madhya Pradesh,MP,State,Seoni,MP-SEO,22.08,79.55
+Madhya Pradesh,MP,State,Shahdol,MP-SHA,23.28,81.35
+Madhya Pradesh,MP,State,Shajapur,MP-SHA,23.43,76.28
+Madhya Pradesh,MP,State,Sheopur,MP-SHE,25.67,76.7
+Madhya Pradesh,MP,State,Shivpuri,MP-SHI,25.43,77.65
+Madhya Pradesh,MP,State,Sidhi,MP-SID,24.42,81.88
+Madhya Pradesh,MP,State,Singrauli,MP-SIN,24.2,82.67
+Madhya Pradesh,MP,State,Tikamgarh,MP-TIK,24.75,78.83
+Madhya Pradesh,MP,State,Ujjain,MP-UJJ,23.18,75.77
+Madhya Pradesh,MP,State,Umaria,MP-UMA,23.53,80.83
+Madhya Pradesh,MP,State,Vidisha,MP-VID,23.52,77.82
+Madhya Pradesh,MP,State,Mauganj,MP-MAU,24.68,81.88
+Madhya Pradesh,MP,State,Maihar,MP-MAI,24.27,80.75
+Madhya Pradesh,MP,State,Pandhurna,MP-PAN,21.6,78.53
+Maharashtra,MH,State,Ahmednagar,MH-AHM,19.08,74.73
+Maharashtra,MH,State,Akola,MH-AKO,20.7,77.0
+Maharashtra,MH,State,Amravati,MH-AMR,20.93,77.75
+Maharashtra,MH,State,Chhatrapati Sambhaji Nagar,MH-CHH,19.88,75.33
+Maharashtra,MH,State,Beed,MH-BEE,18.98,75.75
+Maharashtra,MH,State,Bhandara,MH-BHA,21.17,79.65
+Maharashtra,MH,State,Buldhana,MH-BUL,20.53,76.18
+Maharashtra,MH,State,Chandrapur,MH-CHA,19.95,79.3
+Maharashtra,MH,State,Dhule,MH-DHU,20.9,74.78
+Maharashtra,MH,State,Gadchiroli,MH-GAD,20.18,80.0
+Maharashtra,MH,State,Gondia,MH-GON,21.45,80.2
+Maharashtra,MH,State,Hingoli,MH-HIN,19.72,77.15
+Maharashtra,MH,State,Jalgaon,MH-JAL,21.0,75.57
+Maharashtra,MH,State,Jalna,MH-JAL,19.83,75.88
+Maharashtra,MH,State,Kolhapur,MH-KOL,16.7,74.23
+Maharashtra,MH,State,Latur,MH-LAT,18.4,76.58
+Maharashtra,MH,State,Mumbai City,MH-MUM,18.93,72.83
+Maharashtra,MH,State,Mumbai Suburban,MH-MUM,19.076,72.8777
+Maharashtra,MH,State,Nagpur,MH-NAG,21.1458,79.0882
+Maharashtra,MH,State,Nanded,MH-NAN,19.15,77.32
+Maharashtra,MH,State,Nandurbar,MH-NAN,21.37,74.25
+Maharashtra,MH,State,Nashik,MH-NAS,20.0,73.78
+Maharashtra,MH,State,Dharashiv,MH-DHA,18.18,76.03
+Maharashtra,MH,State,Palghar,MH-PAL,19.7,72.77
+Maharashtra,MH,State,Parbhani,MH-PAR,19.27,76.78
+Maharashtra,MH,State,Pune,MH-PUN,18.5204,73.8567
+Maharashtra,MH,State,Raigad,MH-RAI,18.52,73.18
+Maharashtra,MH,State,Ratnagiri,MH-RAT,16.98,73.3
+Maharashtra,MH,State,Sangli,MH-SAN,16.85,74.58
+Maharashtra,MH,State,Satara,MH-SAT,17.68,74.0
+Maharashtra,MH,State,Sindhudurg,MH-SIN,16.12,73.7
+Maharashtra,MH,State,Solapur,MH-SOL,17.68,75.92
+Maharashtra,MH,State,Thane,MH-THA,19.2,72.97
+Maharashtra,MH,State,Wardha,MH-WAR,20.75,78.6
+Maharashtra,MH,State,Washim,MH-WAS,20.1,77.13
+Maharashtra,MH,State,Yavatmal,MH-YAV,20.4,78.13
+Manipur,MN,State,Bishnupur,MN-BIS,24.63,93.77
+Manipur,MN,State,Chandel,MN-CHA,24.33,94.0
+Manipur,MN,State,Churachandpur,MN-CHU,24.33,93.68
+Manipur,MN,State,Imphal East,MN-IMP,24.8,94.0
+Manipur,MN,State,Imphal West,MN-IMP,24.817,93.9368
+Manipur,MN,State,Jiribam,MN-JIR,24.8,93.12
+Manipur,MN,State,Kakching,MN-KAK,24.48,93.98
+Manipur,MN,State,Kamjong,MN-KAM,24.95,94.5
+Manipur,MN,State,Kangpokpi,MN-KAN,25.15,93.97
+Manipur,MN,State,Noney,MN-NON,24.85,93.6
+Manipur,MN,State,Pherzawl,MN-PHE,24.25,93.2
+Manipur,MN,State,Senapati,MN-SEN,25.27,94.02
+Manipur,MN,State,Tamenglong,MN-TAM,25.0,93.5
+Manipur,MN,State,Tengnoupal,MN-TEN,24.38,94.15
+Manipur,MN,State,Thoubal,MN-THO,24.63,94.0
+Manipur,MN,State,Ukhrul,MN-UKH,25.12,94.37
+Meghalaya,ML,State,East Garo Hills,ML-EAS,25.6,90.58
+Meghalaya,ML,State,East Jaintia Hills,ML-EAS,25.3,92.4
+Meghalaya,ML,State,East Khasi Hills,ML-EAS,25.5788,91.8933
+Meghalaya,ML,State,Eastern West Khasi Hills,ML-EAS,25.52,91.5
+Meghalaya,ML,State,North Garo Hills,ML-NOR,25.9,90.5
+Meghalaya,ML,State,Ri Bhoi,ML-RI ,25.9,91.88
+Meghalaya,ML,State,South Garo Hills,ML-SOU,25.3,90.63
+Meghalaya,ML,State,South West Garo Hills,ML-SOU,25.5,89.9
+Meghalaya,ML,State,South West Khasi Hills,ML-SOU,25.35,91.25
+Meghalaya,ML,State,West Garo Hills,ML-WES,25.52,90.22
+Meghalaya,ML,State,West Jaintia Hills,ML-WES,25.45,92.2
+Meghalaya,ML,State,West Khasi Hills,ML-WES,25.55,91.25
+Mizoram,MZ,State,Aizawl,MZ-AIZ,23.7271,92.7176
+Mizoram,MZ,State,Champhai,MZ-CHA,23.47,93.33
+Mizoram,MZ,State,Hnahthial,MZ-HNA,22.97,92.93
+Mizoram,MZ,State,Khawzawl,MZ-KHA,23.53,93.18
+Mizoram,MZ,State,Kolasib,MZ-KOL,24.22,92.68
+Mizoram,MZ,State,Lawngtlai,MZ-LAW,22.53,92.9
+Mizoram,MZ,State,Lunglei,MZ-LUN,22.88,92.73
+Mizoram,MZ,State,Mamit,MZ-MAM,23.93,92.48
+Mizoram,MZ,State,Saitual,MZ-SAI,23.7,92.97
+Mizoram,MZ,State,Serchhip,MZ-SER,23.3,92.83
+Mizoram,MZ,State,Siaha,MZ-SIA,22.48,92.97
+Nagaland,NL,State,Chümoukedima,NL-CHÜ,25.78,93.77
+Nagaland,NL,State,Dimapur,NL-DIM,25.92,93.73
+Nagaland,NL,State,Kiphire,NL-KIP,25.87,94.78
+Nagaland,NL,State,Kohima,NL-KOH,25.6751,94.1086
+Nagaland,NL,State,Longleng,NL-LON,26.47,94.8
+Nagaland,NL,State,Mokokchung,NL-MOK,26.32,94.52
+Nagaland,NL,State,Mon,NL-MON,26.75,95.07
+Nagaland,NL,State,Niuland,NL-NIU,25.85,93.9
+Nagaland,NL,State,Noklak,NL-NOK,26.2,95.0
+Nagaland,NL,State,Peren,NL-PER,25.52,93.73
+Nagaland,NL,State,Phek,NL-PHE,25.67,94.5
+Nagaland,NL,State,Shamator,NL-SHA,26.05,94.9
+Nagaland,NL,State,Tseminyu,NL-TSE,25.92,94.2
+Nagaland,NL,State,Tuensang,NL-TUE,26.28,94.83
+Nagaland,NL,State,Wokha,NL-WOK,26.1,94.27
+Nagaland,NL,State,Zunheboto,NL-ZUN,26.0,94.52
+Odisha,OD,State,Angul,OD-ANG,20.83,85.1
+Odisha,OD,State,Balangir,OD-BAL,20.72,83.48
+Odisha,OD,State,Balasore,OD-BAL,21.48,86.92
+Odisha,OD,State,Bargarh,OD-BAR,21.33,83.62
+Odisha,OD,State,Bhadrak,OD-BHA,21.05,86.52
+Odisha,OD,State,Boudh,OD-BOU,20.83,84.32
+Odisha,OD,State,Cuttack,OD-CUT,20.47,85.88
+Odisha,OD,State,Deogarh,OD-DEO,21.53,84.73
+Odisha,OD,State,Dhenkanal,OD-DHE,20.67,85.6
+Odisha,OD,State,Gajapati,OD-GAJ,18.82,84.17
+Odisha,OD,State,Ganjam,OD-GAN,19.38,85.05
+Odisha,OD,State,Jagatsinghpur,OD-JAG,20.27,86.17
+Odisha,OD,State,Jajpur,OD-JAJ,20.85,86.33
+Odisha,OD,State,Jharsuguda,OD-JHA,21.85,84.02
+Odisha,OD,State,Kalahandi,OD-KAL,19.9,83.17
+Odisha,OD,State,Kandhamal,OD-KAN,20.47,84.23
+Odisha,OD,State,Kendrapara,OD-KEN,20.5,86.42
+Odisha,OD,State,Kendujhar,OD-KEN,21.63,85.58
+Odisha,OD,State,Khordha,OD-KHO,20.18,85.62
+Odisha,OD,State,Koraput,OD-KOR,18.82,82.72
+Odisha,OD,State,Malkangiri,OD-MAL,18.35,81.9
+Odisha,OD,State,Mayurbhanj,OD-MAY,21.93,86.73
+Odisha,OD,State,Nabarangpur,OD-NAB,19.23,82.55
+Odisha,OD,State,Nayagarh,OD-NAY,20.13,85.1
+Odisha,OD,State,Nuapada,OD-NUA,20.83,82.53
+Odisha,OD,State,Puri,OD-PUR,19.8,85.82
+Odisha,OD,State,Rayagada,OD-RAY,19.17,83.42
+Odisha,OD,State,Sambalpur,OD-SAM,21.47,83.97
+Odisha,OD,State,Subarnapur,OD-SUB,20.83,83.73
+Odisha,OD,State,Sundargarh,OD-SUN,22.12,84.03
+Punjab,PB,State,Amritsar,PB-AMR,31.634,74.8723
+Punjab,PB,State,Barnala,PB-BAR,30.38,75.55
+Punjab,PB,State,Bathinda,PB-BAT,30.22,74.95
+Punjab,PB,State,Faridkot,PB-FAR,30.67,74.75
+Punjab,PB,State,Fatehgarh Sahib,PB-FAT,30.65,76.4
+Punjab,PB,State,Fazilka,PB-FAZ,30.4,74.03
+Punjab,PB,State,Ferozepur,PB-FER,30.93,74.62
+Punjab,PB,State,Gurdaspur,PB-GUR,32.03,75.4
+Punjab,PB,State,Hoshiarpur,PB-HOS,31.53,75.92
+Punjab,PB,State,Jalandhar,PB-JAL,31.33,75.58
+Punjab,PB,State,Kapurthala,PB-KAP,31.38,75.38
+Punjab,PB,State,Ludhiana,PB-LUD,30.901,75.8573
+Punjab,PB,State,Malerkotla,PB-MAL,30.53,75.88
+Punjab,PB,State,Mansa,PB-MAN,29.98,75.38
+Punjab,PB,State,Moga,PB-MOG,30.82,75.17
+Punjab,PB,State,Muktsar,PB-MUK,30.48,74.52
+Punjab,PB,State,Pathankot,PB-PAT,32.27,75.65
+Punjab,PB,State,Patiala,PB-PAT,30.3398,76.3869
+Punjab,PB,State,Rupnagar,PB-RUP,30.97,76.53
+Punjab,PB,State,Sahibzada Ajit Singh Nagar,PB-SAH,30.7046,76.7179
+Punjab,PB,State,Shaheed Bhagat Singh Nagar,PB-SHA,31.12,76.12
+Punjab,PB,State,Sri Muktsar Sahib,PB-SRI,30.48,74.52
+Punjab,PB,State,Tarn Taran,PB-TAR,31.45,74.93
+Rajasthan,RJ,State,Ajmer,RJ-AJM,26.45,74.63
+Rajasthan,RJ,State,Alwar,RJ-ALW,27.57,76.6
+Rajasthan,RJ,State,Banswara,RJ-BAN,23.55,74.45
+Rajasthan,RJ,State,Baran,RJ-BAR,25.1,76.52
+Rajasthan,RJ,State,Barmer,RJ-BAR,25.75,71.4
+Rajasthan,RJ,State,Bharatpur,RJ-BHA,27.22,77.5
+Rajasthan,RJ,State,Bhilwara,RJ-BHI,25.35,74.63
+Rajasthan,RJ,State,Bikaner,RJ-BIK,28.02,73.3
+Rajasthan,RJ,State,Bundi,RJ-BUN,25.43,75.63
+Rajasthan,RJ,State,Chittorgarh,RJ-CHI,24.88,74.63
+Rajasthan,RJ,State,Churu,RJ-CHU,28.3,74.97
+Rajasthan,RJ,State,Dausa,RJ-DAU,26.88,76.33
+Rajasthan,RJ,State,Dholpur,RJ-DHO,26.7,77.9
+Rajasthan,RJ,State,Dungarpur,RJ-DUN,23.83,73.72
+Rajasthan,RJ,State,Hanumangarh,RJ-HAN,29.58,74.32
+Rajasthan,RJ,State,Jaipur,RJ-JAI,26.9124,75.7873
+Rajasthan,RJ,State,Jaisalmer,RJ-JAI,26.92,70.9
+Rajasthan,RJ,State,Jalore,RJ-JAL,25.35,72.62
+Rajasthan,RJ,State,Jhalawar,RJ-JHA,24.6,76.17
+Rajasthan,RJ,State,Jhunjhunu,RJ-JHU,28.13,75.4
+Rajasthan,RJ,State,Jodhpur,RJ-JOD,26.28,73.02
+Rajasthan,RJ,State,Karauli,RJ-KAR,26.5,77.02
+Rajasthan,RJ,State,Kota,RJ-KOT,25.18,75.83
+Rajasthan,RJ,State,Nagaur,RJ-NAG,27.2,73.73
+Rajasthan,RJ,State,Pali,RJ-PAL,25.77,73.32
+Rajasthan,RJ,State,Pratapgarh,RJ-PRA,24.03,74.78
+Rajasthan,RJ,State,Rajsamand,RJ-RAJ,25.07,73.88
+Rajasthan,RJ,State,Sawai Madhopur,RJ-SAW,26.02,76.35
+Rajasthan,RJ,State,Sikar,RJ-SIK,27.62,75.15
+Rajasthan,RJ,State,Sirohi,RJ-SIR,24.88,72.85
+Rajasthan,RJ,State,Sri Ganganagar,RJ-SRI,29.92,73.88
+Rajasthan,RJ,State,Tonk,RJ-TON,26.17,75.78
+Rajasthan,RJ,State,Udaipur,RJ-UDA,24.5854,73.7125
+Rajasthan,RJ,State,Anupgarh,RJ-ANU,29.19,73.21
+Rajasthan,RJ,State,Balotra,RJ-BAL,25.83,72.24
+Rajasthan,RJ,State,Beawar,RJ-BEA,26.1,74.32
+Rajasthan,RJ,State,Deeg,RJ-DEE,27.47,77.33
+Rajasthan,RJ,State,Didwana-Kuchaman,RJ-DID,27.4,74.58
+Rajasthan,RJ,State,Dudu,RJ-DUD,26.68,75.23
+Rajasthan,RJ,State,Gangapur City,RJ-GAN,26.47,76.72
+Rajasthan,RJ,State,Jaipur Rural,RJ-JAI,26.95,75.8
+Rajasthan,RJ,State,Jodhpur Rural,RJ-JOD,26.3,73.1
+Rajasthan,RJ,State,Kotputli-Behror,RJ-KOT,27.7,76.2
+Rajasthan,RJ,State,Khairthal-Tijara,RJ-KHA,27.93,76.83
+Rajasthan,RJ,State,Neem Ka Thana,RJ-NEE,27.73,75.78
+Rajasthan,RJ,State,Phalodi,RJ-PHA,27.13,72.37
+Rajasthan,RJ,State,Salumbar,RJ-SAL,24.13,74.05
+Rajasthan,RJ,State,Sanchore,RJ-SAN,25.0,71.77
+Rajasthan,RJ,State,Shahpura,RJ-SHA,25.63,74.92
+Rajasthan,RJ,State,Kekri,RJ-KEK,25.97,75.15
+Sikkim,SK,State,Gangtok,SK-GAN,27.3389,88.6065
+Sikkim,SK,State,Mangan,SK-MAN,27.5,88.53
+Sikkim,SK,State,Namchi,SK-NAM,27.17,88.35
+Sikkim,SK,State,Gyalshing,SK-GYA,27.28,88.25
+Sikkim,SK,State,Pakyong,SK-PAK,27.23,88.58
+Sikkim,SK,State,Soreng,SK-SOR,27.17,88.2
+Tamil Nadu,TN,State,Ariyalur,TN-ARI,11.13,79.08
+Tamil Nadu,TN,State,Chengalpattu,TN-CHE,12.68,79.98
+Tamil Nadu,TN,State,Chennai,TN-CHE,13.0827,80.2707
+Tamil Nadu,TN,State,Coimbatore,TN-COI,11.0168,76.9558
+Tamil Nadu,TN,State,Cuddalore,TN-CUD,11.75,79.75
+Tamil Nadu,TN,State,Dharmapuri,TN-DHA,12.13,78.17
+Tamil Nadu,TN,State,Dindigul,TN-DIN,10.37,77.98
+Tamil Nadu,TN,State,Erode,TN-ERO,11.33,77.72
+Tamil Nadu,TN,State,Kallakurichi,TN-KAL,11.73,78.97
+Tamil Nadu,TN,State,Kanchipuram,TN-KAN,12.83,79.7
+Tamil Nadu,TN,State,Kanyakumari,TN-KAN,8.0883,77.5385
+Tamil Nadu,TN,State,Karur,TN-KAR,10.95,78.08
+Tamil Nadu,TN,State,Krishnagiri,TN-KRI,12.52,78.22
+Tamil Nadu,TN,State,Madurai,TN-MAD,9.9252,78.1198
+Tamil Nadu,TN,State,Mayiladuthurai,TN-MAY,11.1,79.65
+Tamil Nadu,TN,State,Nagapattinam,TN-NAG,10.77,79.83
+Tamil Nadu,TN,State,Namakkal,TN-NAM,11.22,78.17
+Tamil Nadu,TN,State,Nilgiris,TN-NIL,11.4,76.7
+Tamil Nadu,TN,State,Perambalur,TN-PER,11.23,78.88
+Tamil Nadu,TN,State,Pudukkottai,TN-PUD,10.38,78.82
+Tamil Nadu,TN,State,Ramanathapuram,TN-RAM,9.37,78.83
+Tamil Nadu,TN,State,Ranipet,TN-RAN,12.92,79.33
+Tamil Nadu,TN,State,Salem,TN-SAL,11.65,78.15
+Tamil Nadu,TN,State,Sivaganga,TN-SIV,9.85,78.48
+Tamil Nadu,TN,State,Tenkasi,TN-TEN,8.95,77.3
+Tamil Nadu,TN,State,Thanjavur,TN-THA,10.78,79.13
+Tamil Nadu,TN,State,Theni,TN-THE,10.02,77.48
+Tamil Nadu,TN,State,Thoothukudi,TN-THO,8.8,78.13
+Tamil Nadu,TN,State,Tiruchirappalli,TN-TIR,10.805,78.6856
+Tamil Nadu,TN,State,Tirunelveli,TN-TIR,8.73,77.7
+Tamil Nadu,TN,State,Tirupathur,TN-TIR,12.5,78.57
+Tamil Nadu,TN,State,Tiruppur,TN-TIR,11.1,77.35
+Tamil Nadu,TN,State,Tiruvallur,TN-TIR,13.13,79.9
+Tamil Nadu,TN,State,Tiruvannamalai,TN-TIR,12.23,79.07
+Tamil Nadu,TN,State,Tiruvarur,TN-TIR,10.77,79.63
+Tamil Nadu,TN,State,Vellore,TN-VEL,12.92,79.13
+Tamil Nadu,TN,State,Viluppuram,TN-VIL,11.93,79.5
+Tamil Nadu,TN,State,Virudhunagar,TN-VIR,9.58,77.95
+Telangana,TG,State,Adilabad,TG-ADI,19.67,78.53
+Telangana,TG,State,Bhadradri Kothagudem,TG-BHA,17.55,80.62
+Telangana,TG,State,Hanamkonda,TG-HAN,18.0,79.58
+Telangana,TG,State,Hyderabad,TG-HYD,17.385,78.4867
+Telangana,TG,State,Jagtial,TG-JAG,18.8,78.93
+Telangana,TG,State,Jangaon,TG-JAN,17.72,79.18
+Telangana,TG,State,Jayashankar Bhupalpally,TG-JAY,18.43,79.87
+Telangana,TG,State,Jogulamba Gadwal,TG-JOG,16.23,77.8
+Telangana,TG,State,Kamareddy,TG-KAM,18.32,78.33
+Telangana,TG,State,Karimnagar,TG-KAR,18.43,79.13
+Telangana,TG,State,Khammam,TG-KHA,17.25,80.15
+Telangana,TG,State,Kumuram Bheem Asifabad,TG-KUM,19.35,79.28
+Telangana,TG,State,Mahabubabad,TG-MAH,17.6,80.0
+Telangana,TG,State,Mahabubnagar,TG-MAH,16.73,77.98
+Telangana,TG,State,Mancherial,TG-MAN,18.87,79.45
+Telangana,TG,State,Medak,TG-MED,18.05,78.27
+Telangana,TG,State,Medchal-Malkajgiri,TG-MED,17.5,78.55
+Telangana,TG,State,Mulugu,TG-MUL,18.18,79.93
+Telangana,TG,State,Nagarkurnool,TG-NAG,16.48,78.32
+Telangana,TG,State,Nalgonda,TG-NAL,17.05,79.27
+Telangana,TG,State,Narayanpet,TG-NAR,16.73,77.5
+Telangana,TG,State,Nirmal,TG-NIR,19.1,78.35
+Telangana,TG,State,Nizamabad,TG-NIZ,18.67,78.1
+Telangana,TG,State,Peddapalli,TG-PED,18.62,79.38
+Telangana,TG,State,Rajanna Sircilla,TG-RAJ,18.38,78.83
+Telangana,TG,State,Ranga Reddy,TG-RAN,17.2,78.3
+Telangana,TG,State,Sangareddy,TG-SAN,17.62,78.08
+Telangana,TG,State,Siddipet,TG-SID,18.1,78.85
+Telangana,TG,State,Suryapet,TG-SUR,17.13,79.62
+Telangana,TG,State,Vikarabad,TG-VIK,17.33,77.9
+Telangana,TG,State,Wanaparthy,TG-WAN,16.37,78.07
+Telangana,TG,State,Warangal,TG-WAR,17.98,79.6
+Telangana,TG,State,Yadadri Bhuvanagiri,TG-YAD,17.52,78.88
+Tripura,TR,State,Dhalai,TR-DHA,23.9,91.83
+Tripura,TR,State,Gomati,TR-GOM,23.53,91.5
+Tripura,TR,State,Khowai,TR-KHO,24.07,91.6
+Tripura,TR,State,North Tripura,TR-NOR,24.33,92.17
+Tripura,TR,State,Sepahijala,TR-SEP,23.6,91.33
+Tripura,TR,State,South Tripura,TR-SOU,23.23,91.5
+Tripura,TR,State,Unakoti,TR-UNA,24.3,92.0
+Tripura,TR,State,West Tripura,TR-WES,23.8315,91.2868
+Uttar Pradesh,UP,State,Agra,UP-AGR,27.18,78.02
+Uttar Pradesh,UP,State,Aligarh,UP-ALI,27.88,78.08
+Uttar Pradesh,UP,State,Ambedkar Nagar,UP-AMB,26.45,82.68
+Uttar Pradesh,UP,State,Amethi,UP-AME,26.15,81.82
+Uttar Pradesh,UP,State,Amroha,UP-AMR,28.9,78.47
+Uttar Pradesh,UP,State,Auraiya,UP-AUR,26.47,79.52
+Uttar Pradesh,UP,State,Ayodhya,UP-AYO,26.8,82.2
+Uttar Pradesh,UP,State,Azamgarh,UP-AZA,26.07,83.18
+Uttar Pradesh,UP,State,Baghpat,UP-BAG,28.95,77.22
+Uttar Pradesh,UP,State,Bahraich,UP-BAH,27.58,81.6
+Uttar Pradesh,UP,State,Ballia,UP-BAL,25.77,84.15
+Uttar Pradesh,UP,State,Balrampur,UP-BAL,27.43,82.18
+Uttar Pradesh,UP,State,Banda,UP-BAN,25.48,80.33
+Uttar Pradesh,UP,State,Barabanki,UP-BAR,26.93,81.18
+Uttar Pradesh,UP,State,Bareilly,UP-BAR,28.37,79.43
+Uttar Pradesh,UP,State,Basti,UP-BAS,26.8,82.77
+Uttar Pradesh,UP,State,Bhadohi,UP-BHA,25.42,82.57
+Uttar Pradesh,UP,State,Bijnor,UP-BIJ,29.37,78.13
+Uttar Pradesh,UP,State,Budaun,UP-BUD,28.03,79.12
+Uttar Pradesh,UP,State,Bulandshahr,UP-BUL,28.4,77.85
+Uttar Pradesh,UP,State,Chandauli,UP-CHA,25.27,83.27
+Uttar Pradesh,UP,State,Chitrakoot,UP-CHI,25.17,80.87
+Uttar Pradesh,UP,State,Deoria,UP-DEO,26.5,83.78
+Uttar Pradesh,UP,State,Etah,UP-ETA,27.63,78.67
+Uttar Pradesh,UP,State,Etawah,UP-ETA,26.78,79.03
+Uttar Pradesh,UP,State,Farrukhabad,UP-FAR,27.38,79.58
+Uttar Pradesh,UP,State,Fatehpur,UP-FAT,25.93,80.82
+Uttar Pradesh,UP,State,Firozabad,UP-FIR,27.15,78.4
+Uttar Pradesh,UP,State,Gautam Buddha Nagar,UP-GAU,28.5355,77.391
+Uttar Pradesh,UP,State,Ghaziabad,UP-GHA,28.67,77.43
+Uttar Pradesh,UP,State,Ghazipur,UP-GHA,25.58,83.58
+Uttar Pradesh,UP,State,Gonda,UP-GON,27.13,81.97
+Uttar Pradesh,UP,State,Gorakhpur,UP-GOR,26.76,83.37
+Uttar Pradesh,UP,State,Hamirpur,UP-HAM,25.95,80.15
+Uttar Pradesh,UP,State,Hapur,UP-HAP,28.73,77.78
+Uttar Pradesh,UP,State,Hardoi,UP-HAR,27.4,80.13
+Uttar Pradesh,UP,State,Hathras,UP-HAT,27.6,78.05
+Uttar Pradesh,UP,State,Jalaun,UP-JAL,26.15,79.33
+Uttar Pradesh,UP,State,Jaunpur,UP-JAU,25.75,82.68
+Uttar Pradesh,UP,State,Jhansi,UP-JHA,25.45,78.58
+Uttar Pradesh,UP,State,Kannauj,UP-KAN,27.05,79.92
+Uttar Pradesh,UP,State,Kanpur Dehat,UP-KAN,26.33,79.95
+Uttar Pradesh,UP,State,Kanpur Nagar,UP-KAN,26.4499,80.3319
+Uttar Pradesh,UP,State,Kasganj,UP-KAS,27.8,78.65
+Uttar Pradesh,UP,State,Kaushambi,UP-KAU,25.53,81.42
+Uttar Pradesh,UP,State,Kushinagar,UP-KUS,26.9,83.88
+Uttar Pradesh,UP,State,Lakhimpur Kheri,UP-LAK,27.95,80.78
+Uttar Pradesh,UP,State,Lalitpur,UP-LAL,24.68,78.42
+Uttar Pradesh,UP,State,Lucknow,UP-LUC,26.8467,80.9462
+Uttar Pradesh,UP,State,Maharajganj,UP-MAH,27.15,83.57
+Uttar Pradesh,UP,State,Mahoba,UP-MAH,25.28,79.87
+Uttar Pradesh,UP,State,Mainpuri,UP-MAI,27.23,79.03
+Uttar Pradesh,UP,State,Mathura,UP-MAT,27.5,77.68
+Uttar Pradesh,UP,State,Mau,UP-MAU,25.95,83.55
+Uttar Pradesh,UP,State,Meerut,UP-MEE,28.98,77.7
+Uttar Pradesh,UP,State,Mirzapur,UP-MIR,25.15,82.58
+Uttar Pradesh,UP,State,Moradabad,UP-MOR,28.83,78.78
+Uttar Pradesh,UP,State,Muzaffarnagar,UP-MUZ,29.47,77.7
+Uttar Pradesh,UP,State,Pilibhit,UP-PIL,28.63,79.8
+Uttar Pradesh,UP,State,Pratapgarh,UP-PRA,25.9,81.98
+Uttar Pradesh,UP,State,Prayagraj,UP-PRA,25.4358,81.8463
+Uttar Pradesh,UP,State,Raebareli,UP-RAE,26.23,81.23
+Uttar Pradesh,UP,State,Rampur,UP-RAM,28.8,79.02
+Uttar Pradesh,UP,State,Saharanpur,UP-SAH,29.97,77.55
+Uttar Pradesh,UP,State,Sambhal,UP-SAM,28.58,78.57
+Uttar Pradesh,UP,State,Sant Kabir Nagar,UP-SAN,26.78,83.02
+Uttar Pradesh,UP,State,Shahjahanpur,UP-SHA,27.88,79.92
+Uttar Pradesh,UP,State,Shamli,UP-SHA,29.45,77.32
+Uttar Pradesh,UP,State,Shravasti,UP-SHR,27.5,82.0
+Uttar Pradesh,UP,State,Siddharthnagar,UP-SID,27.28,82.82
+Uttar Pradesh,UP,State,Sitapur,UP-SIT,27.57,80.68
+Uttar Pradesh,UP,State,Sonbhadra,UP-SON,24.68,83.07
+Uttar Pradesh,UP,State,Sultanpur,UP-SUL,26.27,82.07
+Uttar Pradesh,UP,State,Unnao,UP-UNN,26.55,80.48
+Uttar Pradesh,UP,State,Varanasi,UP-VAR,25.3176,82.9739
+Uttarakhand,UK,State,Almora,UK-ALM,29.62,79.67
+Uttarakhand,UK,State,Bageshwar,UK-BAG,29.83,79.77
+Uttarakhand,UK,State,Chamoli,UK-CHA,30.4,79.33
+Uttarakhand,UK,State,Champawat,UK-CHA,29.33,80.1
+Uttarakhand,UK,State,Dehradun,UK-DEH,30.3165,78.0322
+Uttarakhand,UK,State,Haridwar,UK-HAR,29.95,78.17
+Uttarakhand,UK,State,Nainital,UK-NAI,29.38,79.45
+Uttarakhand,UK,State,Pauri Garhwal,UK-PAU,30.15,78.78
+Uttarakhand,UK,State,Pithoragarh,UK-PIT,29.58,80.22
+Uttarakhand,UK,State,Rudraprayag,UK-RUD,30.28,78.98
+Uttarakhand,UK,State,Tehri Garhwal,UK-TEH,30.38,78.48
+Uttarakhand,UK,State,Udham Singh Nagar,UK-UDH,28.98,79.4
+Uttarakhand,UK,State,Uttarkashi,UK-UTT,30.73,78.45
+West Bengal,WB,State,Alipurduar,WB-ALI,26.48,89.53
+West Bengal,WB,State,Bankura,WB-BAN,23.23,87.07
+West Bengal,WB,State,Birbhum,WB-BIR,23.83,87.67
+West Bengal,WB,State,Cooch Behar,WB-COO,26.32,89.45
+West Bengal,WB,State,Dakshin Dinajpur,WB-DAK,25.22,88.77
+West Bengal,WB,State,Darjeeling,WB-DAR,27.036,88.2627
+West Bengal,WB,State,Hooghly,WB-HOO,22.9,88.4
+West Bengal,WB,State,Howrah,WB-HOW,22.6,88.33
+West Bengal,WB,State,Jalpaiguri,WB-JAL,26.52,88.73
+West Bengal,WB,State,Jhargram,WB-JHA,22.45,86.98
+West Bengal,WB,State,Kalimpong,WB-KAL,27.07,88.47
+West Bengal,WB,State,Kolkata,WB-KOL,22.5726,88.3639
+West Bengal,WB,State,Malda,WB-MAL,25.0,88.13
+West Bengal,WB,State,Murshidabad,WB-MUR,24.18,88.27
+West Bengal,WB,State,Nadia,WB-NAD,23.47,88.55
+West Bengal,WB,State,North 24 Parganas,WB-NOR,22.72,88.48
+West Bengal,WB,State,Paschim Bardhaman,WB-PAS,23.68,86.98
+West Bengal,WB,State,Paschim Medinipur,WB-PAS,22.42,87.32
+West Bengal,WB,State,Purba Bardhaman,WB-PUR,23.23,87.87
+West Bengal,WB,State,Purba Medinipur,WB-PUR,21.95,87.78
+West Bengal,WB,State,Purulia,WB-PUR,23.33,86.37
+West Bengal,WB,State,South 24 Parganas,WB-SOU,22.18,88.55
+West Bengal,WB,State,Uttar Dinajpur,WB-UTT,25.62,88.12
+Andaman and Nicobar Islands,AN,Union Territory,Nicobar,AN-NIC,9.15,92.75
+Andaman and Nicobar Islands,AN,Union Territory,North and Middle Andaman,AN-NOR,12.92,92.93
+Andaman and Nicobar Islands,AN,Union Territory,South Andaman,AN-SOU,11.6234,92.7265
+Chandigarh,CH,Union Territory,Chandigarh,CH-CHA,30.7333,76.7794
+Dadra and Nagar Haveli and Daman and Diu,DH,Union Territory,Dadra and Nagar Haveli,DH-DAD,20.27,73.02
+Dadra and Nagar Haveli and Daman and Diu,DH,Union Territory,Daman,DH-DAM,20.4,72.83
+Dadra and Nagar Haveli and Daman and Diu,DH,Union Territory,Diu,DH-DIU,20.71,70.98
+Delhi,DL,Union Territory,Central Delhi,DL-CEN,28.645,77.228
+Delhi,DL,Union Territory,East Delhi,DL-EAS,28.6279,77.2784
+Delhi,DL,Union Territory,New Delhi,DL-NEW,28.6139,77.209
+Delhi,DL,Union Territory,North Delhi,DL-NOR,28.7041,77.1025
+Delhi,DL,Union Territory,North East Delhi,DL-NOR,28.718,77.288
+Delhi,DL,Union Territory,North West Delhi,DL-NOR,28.73,77.08
+Delhi,DL,Union Territory,Shahdara,DL-SHA,28.67,77.29
+Delhi,DL,Union Territory,South Delhi,DL-SOU,28.5355,77.199
+Delhi,DL,Union Territory,South East Delhi,DL-SOU,28.56,77.28
+Delhi,DL,Union Territory,South West Delhi,DL-SOU,28.58,77.05
+Delhi,DL,Union Territory,West Delhi,DL-WES,28.65,77.12
+Jammu and Kashmir,JK,Union Territory,Anantnag,JK-ANA,33.73,75.15
+Jammu and Kashmir,JK,Union Territory,Bandipora,JK-BAN,34.42,74.65
+Jammu and Kashmir,JK,Union Territory,Baramulla,JK-BAR,34.2,74.35
+Jammu and Kashmir,JK,Union Territory,Budgam,JK-BUD,34.02,74.72
+Jammu and Kashmir,JK,Union Territory,Doda,JK-DOD,33.15,75.55
+Jammu and Kashmir,JK,Union Territory,Ganderbal,JK-GAN,34.22,74.78
+Jammu and Kashmir,JK,Union Territory,Jammu,JK-JAM,32.7266,74.857
+Jammu and Kashmir,JK,Union Territory,Kathua,JK-KAT,32.37,75.52
+Jammu and Kashmir,JK,Union Territory,Kishtwar,JK-KIS,33.32,75.77
+Jammu and Kashmir,JK,Union Territory,Kulgam,JK-KUL,33.65,75.02
+Jammu and Kashmir,JK,Union Territory,Kupwara,JK-KUP,34.53,74.25
+Jammu and Kashmir,JK,Union Territory,Poonch,JK-POO,33.77,74.1
+Jammu and Kashmir,JK,Union Territory,Pulwama,JK-PUL,33.87,74.9
+Jammu and Kashmir,JK,Union Territory,Rajouri,JK-RAJ,33.38,74.3
+Jammu and Kashmir,JK,Union Territory,Ramban,JK-RAM,33.25,75.25
+Jammu and Kashmir,JK,Union Territory,Reasi,JK-REA,33.08,74.83
+Jammu and Kashmir,JK,Union Territory,Samba,JK-SAM,32.55,75.12
+Jammu and Kashmir,JK,Union Territory,Shopian,JK-SHO,33.72,74.83
+Jammu and Kashmir,JK,Union Territory,Srinagar,JK-SRI,34.0837,74.7973
+Jammu and Kashmir,JK,Union Territory,Udhampur,JK-UDH,32.93,75.13
+Ladakh,LA,Union Territory,Leh,LA-LEH,34.1526,77.5771
+Ladakh,LA,Union Territory,Kargil,LA-KAR,34.5539,76.1349
+Lakshadweep,LD,Union Territory,Lakshadweep,LD-LAK,10.5667,72.6417
+Puducherry,PY,Union Territory,Karaikal,PY-KAR,10.92,79.83
+Puducherry,PY,Union Territory,Mahe,PY-MAH,11.7,75.53
+Puducherry,PY,Union Territory,Puducherry,PY-PUD,11.9416,79.8083
+Puducherry,PY,Union Territory,Yanam,PY-YAN,16.73,82.22

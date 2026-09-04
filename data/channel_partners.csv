@@ -1,0 +1,84 @@
+partner_id,partner_name,partner_type,state,district,pincode,latitude,longitude,is_active,npa_ratio_percent,supported_scheme_ids,address_line,contact_phone
+CP-TG-MAN-01,Telangana Grameena Bank - Nennel Branch,Regional Rural Bank,Telangana,Mancherial,504208,19.035,79.623,True,2.4,ALL,"Main Road, Nennel Mandal",040-0000-0001
+CP-TG-MAN-02,Telangana Grameena Bank - Bellampalli Branch,Regional Rural Bank,Telangana,Mancherial,504208,19.0667,79.4833,True,2.9,ALL,"Bazar Area, Bellampalli",040-0000-0002
+CP-TG-MAN-03,Telangana Grameena Bank - Dandepally Branch,Regional Rural Bank,Telangana,Mancherial,504208,18.9833,79.2333,True,3.1,ALL,"Near Bus Station, Dandepally",040-0000-0003
+CP-TG-MAN-04,Telangana Grameena Bank - Kotapally Branch,Regional Rural Bank,Telangana,Mancherial,504208,18.895,79.805,True,2.7,ALL,"Village Road, Kotapally",040-0000-0004
+CP-TG-MAN-05,Telangana Grameena Bank - Medariwada Branch,Regional Rural Bank,Telangana,Mancherial,504208,18.871,79.445,True,3.5,ALL,"Medariwada, Mancherial Town",040-0000-0005
+CP-TG-MAN-06,Telangana Grameena Bank - Indaram Branch,Regional Rural Bank,Telangana,Mancherial,504208,18.845,79.528,True,3.8,ALL,"Indaram, Jaipur Mandal",040-0000-0006
+CP-TG-MAN-07,State Bank of India - Mancherial Main Branch,Bank Branch,Telangana,Mancherial,504208,18.868,79.46,True,3.4,ALL,"Station Road, Mancherial",040-0000-0007
+CP-TG-MAN-08,Union Bank of India - Mancherial Branch,Bank Branch,Telangana,Mancherial,504208,18.872,79.458,True,4.1,ALL,"Cinema Road, Mancherial",040-0000-0008
+CP-TG-MAN-09,Telangana State SC Co-Op Dev Corp (TSSCCDC) - Mancherial District Office,State Channelizing Agency,Telangana,Mancherial,504208,18.875,79.452,True,2.2,ALL,"Collectorate Complex, Mancherial",040-0000-0009
+CP-TG-KRM-01,Telangana Grameena Bank - Karimnagar Main Branch,Regional Rural Bank,Telangana,Karimnagar,505001,18.441,79.132,True,2.6,ALL,"Collectorate Road, Karimnagar",040-0000-0010
+CP-TG-KRM-02,State Bank of India - Karimnagar Collectorate Branch,Bank Branch,Telangana,Karimnagar,505001,18.4386,79.1288,True,3.6,ALL,"Civil Lines, Karimnagar",040-0000-0011
+CP-TG-KRM-03,Telangana State SC Co-Op Dev Corp (TSSCCDC) - Karimnagar District Office,State Channelizing Agency,Telangana,Karimnagar,505001,18.435,79.125,True,2.3,ALL,"Zilla Parishad Complex, Karimnagar",040-0000-0012
+CP-TG-ADB-01,Telangana Grameena Bank - Adilabad Main Branch,Regional Rural Bank,Telangana,Adilabad,504001,19.6641,78.532,True,3.2,ALL,"Netaji Chowk, Adilabad",040-0000-0013
+CP-TG-ADB-02,State Bank of India - Adilabad Branch,Bank Branch,Telangana,Adilabad,504001,19.666,78.53,True,4.0,ALL,"Collectorate Road, Adilabad",040-0000-0014
+CP-TG-HYD-01,State Bank of India - Hyderabad Main Branch,Bank Branch,Telangana,Hyderabad,500001,17.395,78.476,True,3.3,ALL,"Bank Street, Koti, Hyderabad",040-0000-0015
+CP-TG-HYD-02,Telangana State SC Co-Op Dev Corp (TSSCCDC) - Head Office,State Channelizing Agency,Telangana,Hyderabad,500001,17.401,78.455,True,2.1,ALL,"5th Floor, DSS Bhavan, Masab Tank, Hyderabad",040-0000-0016
+CP-TG-HYD-03,Canara Bank - Abids Branch,Bank Branch,Telangana,Hyderabad,500001,17.391,78.478,True,3.8,ALL,"Abids Circle, Hyderabad",040-0000-0017
+CP-TG-HYD-04,Telangana Grameena Bank - Head Office,Regional Rural Bank,Telangana,Hyderabad,500001,17.385,78.4867,True,2.8,ALL,"Head Office, Nampally, Hyderabad",040-0000-0018
+CP-MH-NGP-01,Bank of Maharashtra - Sitabuldi Branch,Bank Branch,Maharashtra,Nagpur,440001,21.146,79.083,True,3.4,ALL,"Sitabuldi Main Road, Nagpur",040-0000-0019
+CP-MH-NGP-02,Maharashtra State SC Commission & Dev Corp (MPBCDC) - Nagpur District Office,State Channelizing Agency,Maharashtra,Nagpur,440001,21.152,79.078,True,2.6,ALL,"Administrative Building, Civil Lines, Nagpur",040-0000-0020
+CP-MH-NGP-03,Vidharbha Konkan Gramin Bank - Nagpur Main Branch,Regional Rural Bank,Maharashtra,Nagpur,440001,21.14,79.09,True,4.2,ALL,"Wardha Road, Nagpur",040-0000-0021
+CP-MH-NGP-04,State Bank of India - Kingsway Branch,Bank Branch,Maharashtra,Nagpur,440001,21.155,79.087,True,3.7,ALL,"Kingsway, Nagpur",040-0000-0022
+CP-LKO-01,State Bank of India - Hazratganj Branch,Bank Branch,Uttar Pradesh,Lucknow,226001,26.85,80.94,True,3.8,ALL,"Mahatma Gandhi Marg, Hazratganj, Lucknow",040-0000-0023
+CP-LKO-02,UP Scheduled Caste Finance & Development Corp (UPSCFDC) - Head Office,State Channelizing Agency,Uttar Pradesh,Lucknow,226001,26.862,80.932,True,2.5,ALL,"Bapu Bhawan, Lucknow",040-0000-0024
+CP-LKO-03,Aryavart Bank (Regional Rural Bank) - Gomti Nagar Branch,Regional Rural Bank,Uttar Pradesh,Lucknow,226001,26.839,80.925,True,4.9,ALL,"Vikas Khand, Gomti Nagar, Lucknow",040-0000-0025
+CP-LKO-04,Overleveraged Financial Agency (Demo Filtered) - Stressed Branch,State Channelizing Agency,Uttar Pradesh,Lucknow,226001,26.845,80.942,True,12.5,ALL,"Alambagh, Lucknow",040-0000-0026
+CP-LKO-05,Closed Regional Co-op Center (Demo Inactive) - Inactive Center,Regional Rural Bank,Uttar Pradesh,Lucknow,226001,26.852,80.938,False,3.0,ALL,"Aminabad, Lucknow",040-0000-0027
+CP-DEL-01,Punjab National Bank - Connaught Place Branch,Bank Branch,Delhi,Central Delhi,110001,28.6315,77.2167,True,4.2,ALL,"Radial Road, Connaught Place, New Delhi",040-0000-0028
+CP-DEL-02,Delhi SC/ST/OBC/Minorities Dev & Finance Corp (DSCFDC) - Ambedkar Bhawan Office,State Channelizing Agency,Delhi,Central Delhi,110001,28.645,77.228,True,3.1,ALL,"Sector 12, RK Puram, New Delhi",040-0000-0029
+CP-DEL-03,Bank of Baroda - Parliament Street Branch,Bank Branch,Delhi,New Delhi,110001,28.621,77.212,True,3.9,ALL,"Sansad Marg, New Delhi",040-0000-0030
+CP-DEL-04,Stressed NBFC Sub-Partner (Demo Filtered) - Filtered Branch,NBFC,Delhi,Central Delhi,110001,28.635,77.221,True,14.5,ALL,"Barakhamba Road, New Delhi",040-0000-0031
+CP-PUN-01,Bank of Maharashtra - Shivajinagar Branch,Bank Branch,Maharashtra,Pune,411001,18.5314,73.8446,True,3.5,ALL,"Lokmangal, Shivajinagar, Pune",040-0000-0032
+CP-PUN-02,Maharashtra State SC Commission & Dev Corp (MPBCDC) - Pune District Office,State Channelizing Agency,Maharashtra,Pune,411001,18.518,73.853,True,2.8,ALL,"Dr. Ambedkar Bhavan, Camp, Pune",040-0000-0033
+CP-PUN-03,Maharashtra Gramin Bank - Pune Branch,Regional Rural Bank,Maharashtra,Pune,411001,18.525,73.861,True,5.1,ALL,"Sadashiv Peth, Pune",040-0000-0034
+CP-BLR-01,Canara Bank - MG Road Branch,Bank Branch,Karnataka,Bengaluru,560001,12.975,77.608,True,3.3,ALL,"112 JC Road / MG Road, Bengaluru",040-0000-0035
+CP-BLR-02,Karnataka Dr. B.R. Ambedkar Development Corp - State Office,State Channelizing Agency,Karnataka,Bengaluru,560001,12.981,77.591,True,2.4,ALL,"Ambedkar Bhavan, Miller Road, Bengaluru",040-0000-0036
+CP-BLR-03,Karnataka Gramin Bank - City Branch,Regional Rural Bank,Karnataka,Bengaluru,560001,12.968,77.584,True,4.6,ALL,"Gandhinagar, Bengaluru",040-0000-0037
+CP-BPL-01,Central Bank of India - TT Nagar Branch,Bank Branch,Madhya Pradesh,Bhopal,462001,23.238,77.401,True,4.1,ALL,"Apex Bank Building, TT Nagar, Bhopal",040-0000-0038
+CP-BPL-02,MP State Scheduled Castes Finance & Dev Corp (MPVAM) - State Office,State Channelizing Agency,Madhya Pradesh,Bhopal,462001,23.249,77.418,True,2.9,ALL,"Rajeev Gandhi Bhawan, Arera Hills, Bhopal",040-0000-0039
+CP-BPL-03,Madhyanchal Gramin Bank - Bhopal Branch,Regional Rural Bank,Madhya Pradesh,Bhopal,462001,23.262,77.409,True,4.8,ALL,"Hoshangabad Road, Bhopal",040-0000-0040
+CP-JPR-01,Bank of Baroda - MI Road Branch,Bank Branch,Rajasthan,Jaipur,302001,26.918,75.812,True,3.7,ALL,"MI Road, Jaipur",040-0000-0041
+CP-JPR-02,Rajasthan SC/ST Finance & Dev Co-op Corp (Anuja Nigam) - State Office,State Channelizing Agency,Rajasthan,Jaipur,302001,26.905,75.801,True,2.7,ALL,"Nehru Sahakar Bhawan, Jaipur",040-0000-0042
+CP-JPR-03,Rajasthan Marudhara Gramin Bank - Jaipur Head Office,Regional Rural Bank,Rajasthan,Jaipur,302001,26.924,75.795,True,4.4,ALL,"Tulsi Marg, Bani Park, Jaipur",040-0000-0043
+CP-001,Demo Bank of Bharat - Shivajinagar,Bank Branch,Maharashtra,Pune,411005,18.5308,73.8475,True,2.1,ALL,"Demo Plaza, FC Road, Shivajinagar",020-0000-0001
+CP-002,Sahyadri Demo Cooperative Bank,Cooperative Bank,Maharashtra,Pune,411030,18.5074,73.8077,True,4.8,SS-001|SS-002|SS-005|SS-007|SS-012,"Demo Chowk, Kothrud",020-0000-0002
+CP-003,Pune Demo Microfinance Ltd,MFI,Maharashtra,Pune,411014,18.5679,73.9143,True,3.3,SS-001|SS-002|SS-005|SS-010,"Demo Tower, Viman Nagar",020-0000-0003
+CP-004,Western Demo NBFC - Hadapsar,NBFC,Maharashtra,Pune,411028,18.5089,73.926,True,9.4,ALL,"Demo Arcade, Hadapsar",020-0000-0004
+CP-005,Demo Gramin Bank - Pimpri,Regional Rural Bank,Maharashtra,Pune,411018,18.6298,73.7997,True,2.9,ALL,"Demo Complex, Pimpri",020-0000-0005
+CP-006,Demo Bank of Bharat - Camp (Closed),Bank Branch,Maharashtra,Pune,411001,18.5167,73.879,False,1.8,ALL,"Demo Street, Camp",020-0000-0006
+CP-007,Demo Bank of Bharat - Sitabuldi,Bank Branch,Maharashtra,Nagpur,440012,21.1466,79.081,True,3.9,ALL,"Demo Market, Sitabuldi",0712-000-0007
+CP-008,Vidarbha Demo NBFC,NBFC,Maharashtra,Nagpur,440010,21.1215,79.0498,True,7.8,ALL,"Demo Heights, Dharampeth",0712-000-0008
+CP-009,Nashik Demo Cooperative Bank,Cooperative Bank,Maharashtra,Nashik,422002,20.0059,73.7897,True,4.1,ALL,"Demo Road, College Road",0253-000-0009
+CP-010,Demo Bank of Bharat - MG Road,Bank Branch,Karnataka,Bengaluru Urban,560001,12.9758,77.6045,True,2.4,ALL,"Demo Centre, MG Road",080-0000-0010
+CP-011,Karnataka Demo Gramin Bank - Jayanagar,Regional Rural Bank,Karnataka,Bengaluru Urban,560041,12.925,77.5938,True,3.6,ALL,"Demo Building, Jayanagar",080-0000-0011
+CP-012,Namma Demo Microfinance,MFI,Karnataka,Bengaluru Urban,560068,12.8988,77.6221,True,5.7,SS-001|SS-002|SS-005|SS-008,"Demo Layout, Bommanahalli",080-0000-0012
+CP-013,South Demo NBFC - Whitefield,NBFC,Karnataka,Bengaluru Urban,560066,12.9698,77.75,True,8.9,ALL,"Demo Tech Park, Whitefield",080-0000-0013
+CP-014,Demo Bank of Bharat - Yelahanka (Closed),Bank Branch,Karnataka,Bengaluru Urban,560064,13.1007,77.5963,False,2.0,ALL,"Demo Road, Yelahanka",080-0000-0014
+CP-015,Mysuru Demo Cooperative Bank,Cooperative Bank,Karnataka,Mysuru,570004,12.3052,76.6552,True,3.2,ALL,"Demo Circle, Saraswathipuram",0821-000-0015
+CP-016,Kongu Demo Bank - RS Puram,Bank Branch,Tamil Nadu,Coimbatore,641002,11.0056,76.9498,True,2.7,ALL,"Demo Street, RS Puram",0422-000-0016
+CP-017,Coimbatore Demo MFI,MFI,Tamil Nadu,Coimbatore,641012,11.0183,76.9725,True,6.8,ALL,"Demo Nagar, Gandhipuram",0422-000-0017
+CP-018,Madurai Demo Gramin Bank,Regional Rural Bank,Tamil Nadu,Madurai,625002,9.9195,78.1193,True,3.0,ALL,"Demo Street, Anna Nagar",0452-000-0018
+CP-019,Demo Bank of Bharat - Abids,Bank Branch,Telangana,Hyderabad,500001,17.39,78.476,True,2.2,ALL,"Demo Circle, Abids",040-0000-0019
+CP-020,Telangana Demo Gramin Bank - Kukatpally,Regional Rural Bank,Telangana,Hyderabad,500072,17.4849,78.4138,True,4.4,ALL,"Demo Road, Kukatpally",040-0000-0020
+CP-021,Deccan Demo NBFC,NBFC,Telangana,Hyderabad,500034,17.4126,78.4483,True,10.2,ALL,"Demo Towers, Banjara Hills",040-0000-0021
+CP-022,Warangal Demo Cooperative Bank,Cooperative Bank,Telangana,Warangal,506002,17.9784,79.5941,True,3.8,ALL,"Demo Bazaar, Hanamkonda",0870-000-0022
+CP-023,Demo Bank of Bharat - Navrangpura,Bank Branch,Gujarat,Ahmedabad,380009,23.0369,72.5596,True,2.5,ALL,"Demo Complex, Navrangpura",079-0000-0023
+CP-024,Saurashtra Demo Gramin Bank,Regional Rural Bank,Gujarat,Rajkot,360001,22.299,70.79,True,3.4,ALL,"Demo Chowk, Rajkot",0281-000-0024
+CP-025,Gujarat Demo MFI (Closed),MFI,Gujarat,Ahmedabad,380015,23.03,72.51,False,4.0,ALL,"Demo Road, Satellite",079-0000-0025
+CP-026,Demo Bank of Bharat - MI Road,Bank Branch,Rajasthan,Jaipur,302001,26.916,75.809,True,2.8,ALL,"Demo Building, MI Road",0141-000-0026
+CP-027,Marudhar Demo Cooperative Bank,Cooperative Bank,Rajasthan,Jaipur,302017,26.853,75.805,True,7.1,ALL,"Demo Marg, Malviya Nagar",0141-000-0027
+CP-028,Mewar Demo Gramin Bank,Regional Rural Bank,Rajasthan,Udaipur,313001,24.579,73.686,True,3.1,ALL,"Demo Road, Udaipur",0294-000-0028
+CP-029,Demo Bank of Bharat - Hazratganj,Bank Branch,Uttar Pradesh,Lucknow,226001,26.85,80.948,True,2.6,ALL,"Demo Square, Hazratganj",0522-000-0029
+CP-030,Awadh Demo NBFC,NBFC,Uttar Pradesh,Lucknow,226010,26.872,81.001,True,8.3,ALL,"Demo Tower, Gomti Nagar",0522-000-0030
+CP-031,Kashi Demo Gramin Bank,Regional Rural Bank,Uttar Pradesh,Varanasi,221001,25.32,82.987,True,3.5,ALL,"Demo Lane, Lanka",0542-000-0031
+CP-032,Demo Bank of Bharat - TT Nagar,Bank Branch,Madhya Pradesh,Bhopal,462003,23.233,77.401,True,2.3,ALL,"Demo Market, TT Nagar",0755-000-0032
+CP-033,Malwa Demo Cooperative Bank,Cooperative Bank,Madhya Pradesh,Indore,452001,22.725,75.872,True,4.6,ALL,"Demo Chowk, Rajwada",0731-000-0033
+CP-034,Demo Bank of Bharat - Park Street,Bank Branch,West Bengal,Kolkata,700016,22.553,88.352,True,2.9,ALL,"Demo House, Park Street",033-0000-0034
+CP-035,Bengal Demo MFI,MFI,West Bengal,Kolkata,700091,22.576,88.432,True,6.5,ALL,"Demo Sector V, Salt Lake",033-0000-0035
+CP-036,Utkal Demo Gramin Bank,Regional Rural Bank,Odisha,Bhubaneswar,751007,20.27,85.84,True,3.7,ALL,"Demo Nagar, Saheed Nagar",0674-000-0036
+CP-037,Demo Bank of Bharat - Connaught Place,Bank Branch,Delhi,New Delhi,110001,28.6315,77.2167,True,2.0,ALL,"Demo Block, Connaught Place",011-0000-0037
+CP-038,Capital Demo NBFC,NBFC,Delhi,New Delhi,110017,28.5245,77.2066,True,9.9,ALL,"Demo Tower, Saket",011-0000-0038
+CP-039,Delhi Demo Cooperative Bank,Cooperative Bank,Delhi,New Delhi,110009,28.7041,77.2025,True,4.2,ALL,"Demo Road, Model Town",011-0000-0039
+CP-040,Delhi Demo MFI (Closed),MFI,Delhi,New Delhi,110092,28.636,77.288,False,3.0,ALL,"Demo Street, Laxmi Nagar",011-0000-0040
